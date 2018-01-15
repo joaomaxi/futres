@@ -1,0 +1,98 @@
+body {
+        width: 80%;
+        margin: 0px auto;
+        background-image: url("imagens/wallpaper.jpg");
+        font-family: Tahoma, Verdana, "Geneva CE", Lucida, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        
+}
+
+header.topo {height: 40px; }
+div.cabecalho {background-color: #132b13;overflow: hidden;padding-bottom: 0px; 
+}
+
+div#esq {float: right;padding-right: 150px;margin-top: 15px;}
+
+a {margin-left: 15px;padding: 5px 15px;}
+
+
+#face {background-image: url("imagens/facebook_icon-icons.com_60962.png"); background-repeat: no-repeat; background-size: 22px;background-color: antiquewhite;}
+#twi {background-image: url("imagens/top-10-black-and-white-twitter-logo-images.jpg"); background-repeat: no-repeat;background-size: 24px;background-color: antiquewhite;}
+h1 {float: left;margin-left: 15px;color: white;padding: 6px 25px;margin-top: 6px;font-size: 12px;}
+
+nav.principal {height: 176px; overflow: hidden;}
+
+h2 {margin-left: 71px;color: #674a09;;padding-bottom: 43px;padding-top: 38px;}
+
+div.titulo {position: absolute;background-color: #162601;}
+
+nav div.imagem {;background-repeat: no-repeat;float: right;}
+div.imagem img {width: 606px;}
+
+
+h2 {margin-left: 20px;margin-top: 24px; font-size: 35px;padding-right: 283px;color: white;float: left;padding-bottom: 43px;}
+
+li a { text-decoration: none;; color: black; padding: 5px 20px;border-bottom: 1px solid white;}
+
+article {padding-bottom: 8px;  overflow: hidden;background-color: #bfdbb5;}
+
+div.equipas {padding-top: 18px; float: left;background-color: #bfdbb5;width: 30%;padding-right: 63px;    box-sizing: border-box;}
+h3 {    padding: 8px; background-color: #bb0000;; width: 141px; margin-top: 16px;margin-left: 54px;color: white; font-size: 14px;}
+li {    margin-bottom: 22px;}
+
+ul {list-style-type: none; clear: both; }
+
+li a:hover { color: #ff9800;}
+
+article div.principal {float: right; width: 70%; background-color: #bfdbb5;box-sizing: border-box; }
+
+article div.principal h3 { background-color: #254725; width: 233px;padding: 8px;color: white;    padding-right: 460px;
+    margin-top: 45px; }
+
+article div.principal ul {margin-left: 15px;}
+
+
+time { float: right;background-color: #feb300;padding: 8px;color: white;  margin-top: 3px;    margin-right: 3px;
+}
+
+label { font-weight: bold;    border-right: 2px solid;padding-right: 4px;}
+
+#tugao {background-image: url("imagens/tugao.png");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+    
+#eng {background-image: url("imagens/eflag.jpg");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+
+#ital {background-image: url("imagens/Flag_of_Italy.svg");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+    
+ #esp {background-image: url("imagens/esflag.jpg");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+    
+ #fra {background-image: url("imagens/frflag.png");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+    
+ #lig {background-image: url("imagens/chl.jpg");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+    
+ #euro {background-image: url("imagens/euroleague.jpg");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+    
+footer {background-color: #ddf7d4;overflow: hidden;padding: 15px;}
+
+div.fim {overflow: hidden;margin-left: 75px;}
+
+div.fim li {margin-bottom: 5px;}
+    
+div.fim  a {text-decoration: none; border-bottom: none; padding-right: 0px;color: black; font-weight: 600; float: left;
+}
+
+div.fim a:hover {text-decoration: underline;}
+
+div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align: center;}
+
+    
+
+
+
+
