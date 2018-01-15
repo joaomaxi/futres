@@ -11,23 +11,24 @@ header.topo {height: 40px; }
 div.cabecalho {background-color: #132b13;overflow: hidden;padding-bottom: 0px; 
 }
 
-div#esq {float: right;padding-right: 150px;margin-top: 15px;}
-
-a {margin-left: 15px;padding: 5px 15px;}
+div#esq {float: right;padding-right: 86px;margin-top: 15px;}
 
 
-#face {background-image: url("imagens/facebook_icon-icons.com_60962.png"); background-repeat: no-repeat; background-size: 22px;background-color: antiquewhite;}
-#twi {background-image: url("imagens/top-10-black-and-white-twitter-logo-images.jpg"); background-repeat: no-repeat;background-size: 24px;background-color: antiquewhite;}
+a {margin-left: 15px;padding: 8px 16px;}
+
+
+#face {background-image: url("imagens/facebook_icon-icons.com_60962.png"); border-radius: 20px;background-repeat: no-repeat; background-size: 30px;background-color: #ffffff;}
+#twi {background-image: url("imagens/top-10-black-and-white-twitter-logo-images.jpg"); border-radius: 20px;background-repeat: no-repeat;background-size: 30px;background-color: #ffffff;}
 h1 {float: left;margin-left: 15px;color: white;padding: 6px 25px;margin-top: 6px;font-size: 12px;}
 
-nav.principal {height: 176px; overflow: hidden;}
+nav.principal {height: 176px; overflow: hidden;    position: relative;}
 
 h2 {margin-left: 71px;color: #674a09;;padding-bottom: 43px;padding-top: 38px;}
 
-div.titulo {position: absolute;background-color: #162601;}
+div.titulo {background-color: #162601;position: absolute; background-color: rgba(22, 38, 1,0.5); top: 0; left: 0; right: 0;}
 
 nav div.imagem {;background-repeat: no-repeat;float: right;}
-div.imagem img {width: 606px;}
+div.imagem img {max-width: 100%;}
 
 
 h2 {margin-left: 20px;margin-top: 24px; font-size: 35px;padding-right: 283px;color: white;float: left;padding-bottom: 43px;}
@@ -80,11 +81,12 @@ label { font-weight: bold;    border-right: 2px solid;padding-right: 4px;}
     
 footer {background-color: #ddf7d4;overflow: hidden;padding: 15px;}
 
-div.fim {overflow: hidden;margin-left: 75px;}
+div.fim {overflow: hidden;}
 
-div.fim li {margin-bottom: 5px;}
+div.fim li {margin-bottom: 5px; float: left;}
     
-div.fim  a {text-decoration: none; border-bottom: none; padding-right: 0px;color: black; font-weight: 600; float: left;
+div.fim ul {overflow: hidden;}
+div.fim  a {text-decoration: none; border-bottom: none; padding-right: 0px;color: black; font-weight: 600; 
 }
 
 div.fim a:hover {text-decoration: underline;}
