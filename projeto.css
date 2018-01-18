@@ -7,54 +7,46 @@ body {
         
 }
 
-header.topo {height: 40px; }
-div.cabecalho {background-color: #132b13;overflow: hidden;padding-bottom: 0px; 
-}
 
+
+header {height: 40px; }
+div.cabecalho {background-color: #132b13;overflow: hidden;padding-bottom: 0px;}
 div#esq {float: right;padding-right: 86px;margin-top: 15px;}
-
-
 a {margin-left: 15px;padding: 8px 16px;}
-
-
 #face {background-image: url("imagens/facebook_icon-icons.com_60962.png"); border-radius: 20px;background-repeat: no-repeat; background-size: 30px;background-color: #ffffff;}
 #twi {background-image: url("imagens/top-10-black-and-white-twitter-logo-images.jpg"); border-radius: 20px;background-repeat: no-repeat;background-size: 30px;background-color: #ffffff;}
 h1 {float: left;margin-left: 15px;color: white;padding: 6px 25px;margin-top: 6px;font-size: 12px;}
 
-nav.principal {height: 176px; overflow: hidden;    position: relative;}
 
-h2 {margin-left: 71px;color: #674a09;;padding-bottom: 43px;padding-top: 38px;}
+                   
 
+
+
+
+nav{height: 176px; overflow: hidden;    position: relative;}
 div.titulo {background-color: #162601;position: absolute; background-color: rgba(22, 38, 1,0.5); top: 0; left: 0; right: 0;}
-
 nav div.imagem {;background-repeat: no-repeat;float: right;}
 div.imagem img {max-width: 100%;}
-
-
-h2 {margin-left: 20px;margin-top: 24px; font-size: 35px;padding-right: 283px;color: white;float: left;padding-bottom: 43px;}
-
+h2 {margin-left: 20px;margin-top: 24px; font-size: 35px;padding-right: 283px;color: white;float: left;padding-bottom: 43px;padding-top: 38px;}
 li a { text-decoration: none;; color: black; padding: 5px 20px;border-bottom: 1px solid white;}
 
-article {padding-bottom: 8px;  overflow: hidden;background-color: #bfdbb5;}
 
-div.equipas {padding-top: 18px; float: left;background-color: #bfdbb5;width: 30%;padding-right: 63px;    box-sizing: border-box;}
-h3 {    padding: 8px; background-color: #bb0000;; width: 141px; margin-top: 16px;margin-left: 54px;color: white; font-size: 14px;}
-li {    margin-bottom: 22px;}
 
+section {padding-bottom: 8px;  overflow: hidden;background-color: #bfdbb5;}
+
+
+aside {padding-top: 18px; float: left;background-color: #bfdbb5;width: 30%;padding-right: 63px;    box-sizing: border-box;}
+h3 {padding: 8px; background-color: #bb0000;; width: 141px; margin-top: 16px;margin-left: 54px;color: white; font-size: 14px;}
+li {margin-bottom: 22px;}
 ul {list-style-type: none; clear: both; }
-
 li a:hover { color: #ff9800;}
 
-article div.principal {float: right; width: 70%; background-color: #bfdbb5;box-sizing: border-box; }
 
-article div.principal h3 { background-color: #254725; width: 233px;padding: 8px;color: white;    padding-right: 460px;
-    margin-top: 45px; }
+article  {float: right; width: 70%; background-color: #bfdbb5;box-sizing: border-box; }
+article div h3 { background-color: #254725; width: 233px;padding: 8px;color: white;    padding-right: 460px;  margin-top: 45px; }
+article div ul {margin-left: 15px;}
 
-article div.principal ul {margin-left: 15px;}
-
-
-time { float: right;background-color: #feb300;padding: 8px;color: white;  margin-top: 3px;    margin-right: 3px;
-}
+time { float: right;background-color: #feb300;padding: 8px;color: white;  margin-top: 3px;    margin-right: 3px;}
 
 label { font-weight: bold;    border-right: 2px solid;padding-right: 4px;}
 
@@ -79,21 +71,67 @@ label { font-weight: bold;    border-right: 2px solid;padding-right: 4px;}
  #euro {background-image: url("imagens/euroleague.jpg");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
     padding-top: 4px;}
     
-footer {background-color: #ddf7d4;overflow: hidden;padding: 15px;}
-
-div.fim {overflow: hidden;}
-
-div.fim li {margin-bottom: 5px; float: left;}
     
+    
+    
+footer {background-color: #ddf7d4;overflow: hidden;padding: 15px;}
+div.fim {overflow: hidden;}
+div.fim li {margin-bottom: 5px; float: left;}
 div.fim ul {overflow: hidden;}
-div.fim  a {text-decoration: none; border-bottom: none; padding-right: 0px;color: black; font-weight: 600; 
-}
-
+div.fim  a {text-decoration: none; border-bottom: none; padding-right: 0px;color: black; font-weight: 600; }
 div.fim a:hover {text-decoration: underline;}
-
 div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align: center;}
 
+
+
     
+@media ( max-width:1000px )
+{
+     body { width:100%; margin-top:0; }
+     
+     aside, article { width: 100%; float:none; }
+     
+     section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
+     
+     aside li:nth-child(2n+1) { clear:left;padding-top: 0px;margin-top: 8px;margin-bottom: 12px; }
+     
+     aside ul { overflow: hidden;padding-left: 0px;padding-top: 0px;}
+     
+     h2 {font-size: 20px; margin-left: 0px; margin-left: 162px;padding-top: 0px;}
+     
+     nav {height: 93px;}
+     
+     aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
+     
+     h1 {margin-left: 0px;}
+     
+     article div h3 { width: 200px; padding: 4px; margin-left: 0px;padding-right: 154px;font-size: 12px; margin-top: 20px;}
+     
+     article li a {    margin-left: 8px; border-bottom: none;}
+     
+     article div ul {margin-left: 0px;    padding-left: 7px;}
+     
+     footer div.final p {margin-left: 20px; text-align: left;}
+     
+     footer div.fim ul {padding-left: 0px;}
+     
+     footer div.fim li {float: none;margin-bottom:2px;}
+     
+     time {margin-right: 20px; margin-top: 2px;padding: 2px;}
+     
+     header div#esq {margin-top: 12px; float: none;}
+     
+     #tugao,#euro,#lig, #fra, #esp, #ital, #tugao,#eng {border-bottom: none;}
+    
+}
+
+@media (max-width:400px)
+{
+ 
+ 
+ 
+ 
+}
 
 
 
