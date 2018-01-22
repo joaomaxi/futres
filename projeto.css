@@ -32,10 +32,11 @@ li a { text-decoration: none;; color: black; padding: 5px 20px;border-bottom: 1p
 
 
 
-section {padding-bottom: 8px;  overflow: hidden;background-color: #bfdbb5;}
+section {padding-bottom: 8px;  overflow: hidden;background-color: #bfdbb5; position: relative;}
 
 
-aside {padding-top: 18px; float: left;background-color: #bfdbb5;width: 30%;padding-right: 63px;    box-sizing: border-box;}
+aside {padding-top:45px; float: left;background-color: #bfdbb5;width: 30%;padding-right: 15px;box-sizing: border-box;}
+aside li a {border-bottom:none;}
 h3 {padding: 8px; background-color: #bb0000;; width: 141px; margin-top: 16px;margin-left: 54px;color: white; font-size: 14px;}
 li {margin-bottom: 22px;}
 ul {list-style-type: none; clear: both; }
@@ -43,7 +44,7 @@ li a:hover { color: #ff9800;}
 
 
 article  {float: right; width: 70%; background-color: #bfdbb5;box-sizing: border-box; }
-article div h3 { background-color: #254725; width: 233px;padding: 8px;color: white;    padding-right: 460px;  margin-top: 45px; }
+article div h3 { background-color: #254725; width: 233px;padding: 8px;color: white;padding-right: 460px;  margin-top: 45px; }
 article div ul {margin-left: 15px;}
 
 time { float: right;background-color: #feb300;padding: 8px;color: white;  margin-top: 3px;    margin-right: 3px;}
@@ -71,6 +72,9 @@ label { font-weight: bold;    border-right: 2px solid;padding-right: 4px;}
  #euro {background-image: url("imagens/euroleague.jpg");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
     padding-top: 4px;}
     
+  #ger {background-image: url("imagens/290px-Flag_of_Germany.svg.png");background-size: 32px; background-repeat: no-repeat; padding-left: 44px;
+    padding-top: 4px;}
+    
     
     
     
@@ -85,43 +89,73 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
 
 
     
-@media ( max-width:1000px )
+@media ( min-width:742px) and (max-width:1000px)
 {
      body { width:100%; margin-top:0; }
      
      aside, article { width: 100%; float:none; }
      
-     aside li { float:left; margin-right: 1.5em;}
+     section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
      
-     aside li:nth-child(2n+1) { clear:left; }
+     li {margin-bottom: 14px;}
+     article {overflow: hidden;}
+     article li a {margin-left: 0px;}
+      
+     article div:nth-child(2n+1) {float: right;}
+     article div:nth-child(2n) {float: left; }
      
-     aside ul { overflow: hidden; }
+     article div h3 {padding-right: 100px;margin-right: 29px;}
+     aside li:nth-child(2n+1) {padding-top: 0px;margin-top: 8px;margin-bottom: 12px; }
      
-     h2 {font-size: 20px; margin-left: 0px; margin-left: 162px;padding-top: 0px;}
+     aside ul { overflow: hidden;padding-left: 0px;padding-top: 0px;}
+     
+     h2 {font-size: 27px;  margin-left: 40px;padding-top: 0px;}
      
      nav {height: 93px;}
      
-     aside h3 { margin-left: 5px; width: 97px; font-size: 12px; margin-top: 0px;}
+     aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
      
-     h1 {margin-left: 0px;}
+     #tugao,#euro,#lig, #fra, #esp, #ital, #tugao,#eng {border-bottom: none;}
      
-     article  h3 { width: 162px; padding: 4px; margin-left: 0px;padding-right: 154px;font-size: 12px;}
+     div.fim a {margin-left: 0px;}
      
-     footer div.final p {margin-left: 0px; text-align: left;}
+     div.final p {margin-left: 59px; text-align: left;}
      
-     footer div.fim li {float: none;margin-bottom:2px;}
-     
-     time {padding: 4px;}
-     
-     header div#esq {margin-top: 12px; float: none;}
-     
-     
-     
-     
+     time { position: absolute;top: 5px; right: 0}
 
-        
 }
 
+@media (max-width:742px)
 
+{
+     body { width:100%; margin-top:0; }
+                  
+     aside, article { width: 100%; float:none; }
+     
+     section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
+     
+     li {margin-bottom: 14px;}
+     article {overflow: hidden;}
+     article div h3 {padding-right: 26px;margin-right: 29px;}
+     article div:nth-child(2n+1) {float: right; }
+     article div:nth-child(2n) {float: left; }
+     
 
-
+     aside li:nth-child(2n+1) {padding-top: 0px;margin-top: 8px;margin-bottom: 12px; }
+     
+     aside ul { overflow: hidden;padding-left: 0px;padding-top: 0px;}
+     
+     h2 {font-size: 27px;  margin-left: 40px;padding-top: 0px;}
+     
+     nav {height: 93px;}
+     
+     aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;margin-bottom: 25px;}
+     
+     #tugao,#euro,#lig, #fra, #esp, #ital, #tugao,#eng {border-bottom: none;}
+     
+     div.fim a {margin-left: 0px;}
+     
+     div.final p {margin-left: 59px; text-align: left;}
+     
+     time { position: absolute;top: 5px; right: 0}
+}
