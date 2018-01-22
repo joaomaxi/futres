@@ -91,35 +91,46 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
      
      aside, article { width: 100%; float:none; }
      
-     aside li { float:left; margin-right: 1.5em;}
+     section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
      
-     aside li:nth-child(2n+1) { clear:left; }
+     aside li:nth-child(2n+1) { clear:left;padding-top: 0px;margin-top: 8px;margin-bottom: 12px; }
      
-     aside ul { overflow: hidden; }
+     aside ul { overflow: hidden;padding-left: 0px;padding-top: 0px;}
      
      h2 {font-size: 20px; margin-left: 0px; margin-left: 162px;padding-top: 0px;}
      
      nav {height: 93px;}
      
-     aside h3 { margin-left: 5px; width: 97px; font-size: 12px; margin-top: 0px;}
+     aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
      
      h1 {margin-left: 0px;}
      
-     article  h3 { width: 162px; padding: 4px; margin-left: 0px;padding-right: 154px;font-size: 12px;}
+     article div h3 { width: 200px; padding: 4px; margin-left: 0px;padding-right: 154px;font-size: 12px; margin-top: 20px;}
      
-     footer div.final p {margin-left: 0px; text-align: left;}
+     article li a {    margin-left: 8px; border-bottom: none;}
+     
+     article div ul {margin-left: 0px;    padding-left: 7px;}
+     
+     footer div.final p {margin-left: 20px; text-align: left;}
+     
+     footer div.fim ul {padding-left: 0px;}
      
      footer div.fim li {float: none;margin-bottom:2px;}
      
-     time {padding: 4px;}
+     time {margin-right: 20px; margin-top: 2px;padding: 2px;}
      
      header div#esq {margin-top: 12px; float: none;}
      
-     
-     
-     
+     #tugao,#euro,#lig, #fra, #esp, #ital, #tugao,#eng {border-bottom: none;}
+    
+}
 
-        
+@media (max-width:400px)
+{
+ 
+ 
+ 
+ 
 }
 
 
