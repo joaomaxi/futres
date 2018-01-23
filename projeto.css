@@ -118,9 +118,9 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
      
      #tugao,#euro,#lig, #fra, #esp, #ital, #tugao,#eng {border-bottom: none;}
      
-     div.fim a {margin-left: 0px;}
+     div.fim a {margin-left: 0px;padding-left: 0px;    padding-right: 10px;}
      
-     div.final p {margin-left: 59px; text-align: left;}
+      div.final p {margin-left: 35px; text-align: left;}
      
      time { position: absolute;top: 5px; right: 0}
 
@@ -160,7 +160,7 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
      
      div.fim a {margin-left: 0px;padding-left: 0px;    padding-right: 10px;}
      
-     div.final p {margin-left: 10px; text-align: left;}
+     div.final p {margin-left: 38px; text-align: left;}
      
      time { position: absolute;top: 5px; right: 0}
 }
@@ -194,7 +194,7 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
         
         div.fim a {margin-left: 0px;}
      
-        div.final p {margin-left: 10px; text-align: left;}
+        div.final p {margin-left: 39px; text-align: left;}
         div.fim a {margin-left: 0px;padding-left: 0px;    padding-right: 10px;}
    
  
@@ -263,18 +263,16 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
      
         section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
         aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
-     
-        
-        article div ul {margin-left: 0px;padding-left: 0px;}
+ 
+        article div ul {margin-left: 15px;padding-left: 0px;}
        
         time { position: absolute;top: 5px; right: 0}
         
         h2 {margin-left: 40px; margin-top: 0px;  padding-top: 23px;font-size: 25px;}
         
-        h3 {margin-left: 0px;}
+        article div h3 {margin-left: 0px;}
         div.fim ul {padding-left: 10px;}
-        
-     
+       
         div.final p {margin-left: 10px; text-align: left;}
         div.fim a {margin-left: 0px;padding-left: 0px;    padding-right: 10px;}
 }
