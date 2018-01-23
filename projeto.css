@@ -9,7 +9,7 @@ body {
 
 
 
-header {height: 40px; }
+header {height: 40px; position: relative; }
 div.cabecalho {background-color: #132b13;overflow: hidden;padding-bottom: 0px;}
 div#esq {float: right;padding-right: 86px;margin-top: 15px;}
 a {margin-left: 15px;padding: 8px 16px;}
@@ -89,7 +89,7 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
 
 
     
-@media ( min-width:742px) and (max-width:1000px)
+@media ( min-width:710px) and (max-width:1000px)
 {
      body { width:100%; margin-top:0; }
      
@@ -99,19 +99,20 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
      
      li {margin-bottom: 14px;}
      article {overflow: hidden;}
-     article li a {margin-left: 0px;}
+     article div ul {  margin-left: 0px;}
+     article li a {margin-left: 0px;font-size:11px;}
       
-     article div:nth-child(2n+1) {float: right;}
-     article div:nth-child(2n) {float: left; }
+     article div:nth-child(2n+1) {float: right;width: 45%;}
+     article div:nth-child(2n) {float: left; width: 45%; }
      
-     article div h3 {padding-right: 100px;margin-right: 29px;}
+     article div h3 {padding-right: 100px;margin-right: 29px;text-align: center;margin-left: 15px;}
      aside li:nth-child(2n+1) {padding-top: 0px;margin-top: 8px;margin-bottom: 12px; }
      
-     aside ul { overflow: hidden;padding-left: 0px;padding-top: 0px;}
+     aside ul { overflow: hidden;padding-left: 0px;padding-top: 0px; }
      
      h2 {font-size: 27px;  margin-left: 40px;padding-top: 0px;}
      
-     nav {height: 93px;}
+     nav {height: 121px;}
      
      aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
      
@@ -125,37 +126,112 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
 
 }
 
-@media (max-width:742px)
+@media ( min-width:700px) and (max-width:709px)
 
 {
-     body { width:100%; margin-top:0; }
+     body { width:100%; margin-top:0;}
                   
-     aside, article { width: 100%; float:none; }
+     aside, article { width: 100%; float:none;}
      
      section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
      
-     li {margin-bottom: 14px;}
+     li {margin-bottom: 10px;}
      article {overflow: hidden;}
-     article div h3 {padding-right: 26px;margin-right: 29px;}
-     article div:nth-child(2n+1) {float: right; }
-     article div:nth-child(2n) {float: left; }
-     
-
+     article div h3 {width: 197px;padding-right: 0px;margin-right: 0px;}
+     article div:nth-child(2n+1) {float: right; width: 40%;}
+     article div:nth-child(2n) {float: left; width: 40%; }
+  
+     article li a {margin-left: 0px;font-size: 11px; padding: 5px 8px;}
+    
      aside li:nth-child(2n+1) {padding-top: 0px;margin-top: 8px;margin-bottom: 12px; }
      
      aside ul { overflow: hidden;padding-left: 0px;padding-top: 0px;}
-     
+    
      h2 {font-size: 27px;  margin-left: 40px;padding-top: 0px;}
      
-     nav {height: 93px;}
+     nav {height: 121px;}
      
      aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;margin-bottom: 25px;}
      
+     aside li a {padding: 5px 21px;}
+     
      #tugao,#euro,#lig, #fra, #esp, #ital, #tugao,#eng {border-bottom: none;}
      
-     div.fim a {margin-left: 0px;}
+     div.fim a {margin-left: 0px;padding-left: 0px;    padding-right: 10px;}
      
-     div.final p {margin-left: 59px; text-align: left;}
+     div.final p {margin-left: 10px; text-align: left;}
      
      time { position: absolute;top: 5px; right: 0}
+}
+
+
+
+@media  ( min-width: 518px ) and (max-width:699px)
+{
+ 
+       body {width: 100%; margin-top: 0;}
+            
+        nav {height: 121px;}
+       
+        aside, article { width: 100%; }
+     
+        section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
+        
+        section aside ul {padding-left: 0px;}
+        
+        article div ul {margin-left: 0px;}
+        
+        article div li {margin-bottom: 15px;}
+       
+        time { position: absolute;top: 5px; right: 0}
+        
+        h2 {margin-left: 40px; margin-top: 0px;    padding-top: 23px;font-size: 27px;}
+        
+        h3 {margin-left: 0px;}
+        
+        div.fim a {margin-left: 0px;}
+     
+        div.final p {margin-left: 10px; text-align: left;}
+        div.fim a {margin-left: 0px;padding-left: 0px;    padding-right: 10px;}
+   
+ 
+}
+
+@media (max-width:518px)
+
+{
+        body {width: 100%; margin-top: 0;}
+        
+        div#esq {    position: absolute;left: 0;top: 0}
+        
+        header {height: 38px;}
+        
+        nav {height: 121px;}
+        
+        h1 {margin-left: 100px;color: white;padding: 6px 25px;margin-top: 6px;font-size: 11px;}
+        
+        aside, article { width: 100%; }
+        
+        section aside ul {margin-left: 0px; padding-left: 0px;}
+     
+        section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
+        
+        article div ul {margin-left: 0px;padding-left: 0px;}
+        nav {height: 121px;}
+        
+        article div li {margin-bottom: 15px;}
+       
+        time { position: absolute;top: 5px; right: 0}
+        
+        h2 {margin-left: 40px; margin-top: 0px;    padding-top: 23px;font-size: 25px;}
+        
+        h3 {margin-left: 0px;}
+        div.fim ul {padding-left: 10px;}
+        
+     
+        div.final p {margin-left: 10px; text-align: left;}
+        div.fim a {margin-left: 0px;padding-left: 0px;    padding-right: 10px;}
+   
+ 
+ 
 }
