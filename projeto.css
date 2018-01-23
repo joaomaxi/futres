@@ -151,7 +151,8 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
      
      nav {height: 121px;}
      
-     aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;margin-bottom: 25px;}
+     aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
+     
      
      aside li a {padding: 5px 21px;}
      
@@ -179,13 +180,15 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
         
         section aside ul {padding-left: 0px;}
         
+        aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
+       
+        
         article div ul {margin-left: 0px;}
         
         article div li {margin-bottom: 15px;}
        
         time { position: absolute;top: 5px; right: 0}
-        
-        h2 {margin-left: 40px; margin-top: 0px;    padding-top: 23px;font-size: 27px;}
+     
         
         h3 {margin-left: 0px;}
         
@@ -215,6 +218,8 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
         section aside ul {margin-left: 0px; padding-left: 0px;}
      
         section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
+        aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
+     
         
         article div ul {margin-left: 0px;padding-left: 0px;}
         nav {height: 121px;}
@@ -247,23 +252,22 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
         
         nav {height: 90px;}
         
-        #face {background-size: 25px;margin-right: 0px;padding-right: 10px;padding-top: 5px;}
-        #twi {background-size: 25px;padding-right: 10px;padding-top: 5px;}
+        #face {background-size: 25px;margin-right: 0px;padding-right: 10px;padding-top: 5px;padding-top: 2px;}
+        #twi {background-size: 25px;padding-right: 10px;padding-top: 5px;padding-top: 2px;}
         
-        h1 {margin-left: 70px;color: white;padding: 6px 25px;margin-top: 6px;font-size: 11px;}
+        h1 {margin-left: 65px;color: white;padding: 6px 25px;margin-top: 6px;font-size: 11px;}
         
         aside, article { width: 100%; }
-        
-         aside div:nth-child(2n+1) {float: right; width: 20%;}
-         aside div:nth-child(2n) {float: left; width: 20%; }
         
         section aside ul {margin-left: 0px; padding-left: 0px;}
      
         section aside li { float:left; margin-right: 1.5em;padding-top: 6px; padding-left: 0px;}
+        aside h3 { margin-left: 15px; width: 79px; font-size: 12px; margin-top: 0px;}
+     
         
         article div ul {margin-left: 0px;padding-left: 0px;}
         
-        article div li {margin-bottom: 15px;}
+     
        
         time { position: absolute;top: 5px; right: 0}
         
