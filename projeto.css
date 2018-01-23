@@ -252,10 +252,10 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
         
         nav {height: 90px;}
         
-        #face {background-size: 25px;margin-right: 0px;padding-right: 10px;padding-top: 5px;padding-top: 2px;}
-        #twi {background-size: 25px;padding-right: 10px;padding-top: 5px;padding-top: 2px;}
+        #face {background-size: 25px;margin-right: 0px;padding-right: 10px;padding-top: 5px;padding-top: 5px;margin-left: 2px;}
+        #twi {background-size: 25px;padding-right: 10px;padding-top: 5px;padding-top: 5px;margin-left: 8px;}
         
-        h1 {margin-left: 65px;color: white;padding: 6px 25px;margin-top: 6px;font-size: 11px;}
+        h1 {margin-left: 50px;color: white;padding: 6px 25px;margin-top: 5px;font-size: 11px;}
         
         aside, article { width: 100%; }
         
@@ -266,8 +266,6 @@ div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align
      
         
         article div ul {margin-left: 0px;padding-left: 0px;}
-        
-     
        
         time { position: absolute;top: 5px; right: 0}
         
