@@ -67,9 +67,9 @@ footer {background-color: #ddf7d4;overflow: hidden;padding: 15px;}
 div.fim {overflow: hidden;}
 div.fim li {margin-bottom: 5px; float: left;}
 div.fim ul {overflow: hidden;}
-div.fim  a {text-decoration: none; border-bottom: none; padding-right: 0px;color: black; font-weight: 600; }
+div.fim  a {text-decoration: none; border-bottom: none; padding-right: 0px;color: black; font-weight: 600;margin-left: 30px; }
 div.fim a:hover {text-decoration: underline;}
-div.final p { margin-left: 125px;padding-bottom: 6px; font-size: 11px;text-align: center;}
+div.final p { margin-left: 0px;padding-bottom: 6px; font-size: 11px;text-align: center;}
 
 
 
